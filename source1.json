@@ -1,0 +1,41 @@
+{
+        "bookSourceComment": "https://celeter.github.io/SourceGo",
+        "bookSourceGroup": "🥈补充",
+        "bookSourceName": "🥈追书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mangg.com",
+        "customOrder": 59,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1611754412107,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "#info > p:nth-child(2)##作    者：",
+            "coverUrl": "#fmimg > img@src",
+            "intro": "#intro",
+            "name": "#info > h1",
+            "kind": "#wrapper > div:nth-child(5) > div.con_top > a:nth-child(2)",
+            "lastChapter": "#list > dl > dd:last-child > a",
+            "updateTime": "#info > p:nth-child(4)##最后更新："
+        },
+        "ruleContent": {
+            "content": "#content@text"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "div.result-game-item-detail > div > p:nth-child(1) > span:nth-child(2)",
+            "bookList": ".result-item",
+            "bookUrl": "div.result-game-item-detail > h3 > a@href",
+            "coverUrl": "div.result-game-item-pic > a > img@src",
+            "kind": "div.result-game-item-detail > div > p:nth-child(2) > span:nth-child(2)",
+            "lastChapter": "div.result-game-item-detail > div > p:nth-child(4) > a",
+            "name": "div.result-game-item-detail > h3 > a > span"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.mangg.com/search.php?q={{key}}",
+        "weight": 0
+    }
